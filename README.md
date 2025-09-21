@@ -1,17 +1,45 @@
-# ESP32 NTP Clock
+# Medibox Simulation – ESP32 (Embedded Systems Project)
 
-A simple clock that displays the time and date on an LCD1602 display. The time is synced via NTP.
+This repository contains the implementation of **Programming Assignment 1** for the course **EN2853: Embedded Systems and Applications**.  
+The project demonstrates a **Medibox** simulation built on **Wokwi** using an ESP32 microcontroller. The Medibox is designed to remind users to take their medicine on time and monitor environmental conditions.
 
-Use [Wokwi](https://marketplace.visualstudio.com/items?itemName=wokwi.wokwi-vscode) to simulate this project.
+---
 
-## Building
+## 📌 Features
 
-This is a [PlatformIO](https://platformio.org) project. To build it, [install PlatformIO](https://docs.platformio.org/en/latest/core/installation/index.html), and then run the following command:
+- **Menu System**
+  - Set time zone (UTC offset).
+  - Set up to **2 alarms**.
+  - View active alarms.
+  - Delete specific alarms.
 
-```
-pio run
-```
+- **Time Synchronization**
+  - Fetches current time from an **NTP server** over Wi-Fi.
+  - Displays real-time clock on the **OLED display**.
 
-## Simulate the project
+- **Alarm System**
+  - Rings alarm with proper indications (Buzzer, LED, or OLED message).
+  - **Stop** alarm with push button.
+  - **Snooze** option (5 minutes).
 
-To simulate this project, install [Wokwi for VS Code](https://marketplace.visualstudio.com/items?itemName=wokwi.wokwi-vscode). Open the project directory in Visual Studio Code, press **F1** and select "Wokwi: Start Simulator".
+- **Environment Monitoring**
+  - Continuously monitors **temperature** and **humidity**.
+  - Provides **warnings** when readings exceed healthy limits:
+    - Temperature: 24 °C – 32 °C  
+    - Humidity: 65% – 80%
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **ESP32 Microcontroller**
+- **Wokwi Simulator**
+- **OLED Display**
+- **Push Buttons**
+- **Buzzer / LEDs**
+- **DHT Sensor** (for temperature & humidity monitoring)
+
+---
+
+## 📂 Project Structure
+
