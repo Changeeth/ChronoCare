@@ -1,7 +1,7 @@
-# Medibox Simulation – ESP32 (Embedded Systems Project)
+# ChronoCare Simulation – ESP32 (Embedded Systems Project)
 
 This repository contains the implementation of **Programming Assignment 1** for the course **EN2853: Embedded Systems and Applications**.  
-The project demonstrates a **Medibox** simulation built on **Wokwi** using an ESP32 microcontroller. The Medibox is designed to remind users to take their medicine on time and monitor environmental conditions.
+The project demonstrates a **ChronoCare** simulation built on **Wokwi** using an ESP32 microcontroller. The ChronoCare is designed to remind users to take their medicine on time and monitor environmental conditions.
 
 ---
 
@@ -41,5 +41,4 @@ The project demonstrates a **Medibox** simulation built on **Wokwi** using an ES
 
 ---
 
-## 📂 Project Structure
 
