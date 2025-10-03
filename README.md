@@ -46,6 +46,6 @@ The project demonstrates a **ChronoCare** simulation built on **Wokwi** using an
 <p align="center">
   <img src="images/img01.png" alt="Wokwi Simulation Screenshot" width="70%"/>
 </p>
----
+
 
 
