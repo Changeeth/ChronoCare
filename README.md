@@ -47,5 +47,8 @@ The project demonstrates a **ChronoCare** simulation built on **Wokwi** using an
   <img src="images/img01.png" alt="Wokwi Simulation Screenshot" width="70%"/>
 </p>
 
+---
 
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
